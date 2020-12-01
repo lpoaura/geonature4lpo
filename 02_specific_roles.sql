@@ -1,12 +1,12 @@
 CREATE ROLE superadmin
     LOGIN
     SUPERUSER
-    ENCRYPTED PASSWORD 'haeku7ieLucee*g3'
+    ENCRYPTED PASSWORD '<monpassachanger>'
 ;
 
 CREATE ROLE lpo_advanced
     LOGIN
-    ENCRYPTED PASSWORD 'Ee3xae4eiL*e9oMa'
+    ENCRYPTED PASSWORD '<monpassachanger>'
     NOSUPERUSER
     NOCREATEDB
     NOCREATEROLE
@@ -32,7 +32,7 @@ ALTER DEFAULT PRIVILEGES FOR ROLE lpo_advanced IN SCHEMA lpo_advanced
 
 CREATE ROLE lpo_basic
     LOGIN
-    ENCRYPTED PASSWORD 'Cai{ch4sah3shai?'
+    ENCRYPTED PASSWORD '<monpassachanger>'
     NOSUPERUSER
     NOCREATEDB
     NOCREATEROLE
